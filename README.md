@@ -7,9 +7,24 @@
 4-tar -xzf golang.tar
 5-sudo cp -r go /usr/local
 6-sudo cp -r go /usr/local/bin
-7- 
+7-
 
+sudo nano .bashrc
 
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
+  source .bashrc
+
+
+  
+  sudo nano ~/.bashrc
+
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
+  source ~/.bashrc
+
+
